@@ -43,6 +43,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .movie {
     width: 300px;
@@ -99,6 +100,10 @@ main {
     transform: translateY(101%);
     transition: transform 300ms ease-in;
     cursor: pointer;
+}
+.overview h3 {
+    text-transform: capitalize;
+
 }
 .movie:hover .overview{
     transform: translateY(0);
